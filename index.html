@@ -1,23 +1,174 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sandra Pastrana</title>
+    <meta charset="utf-8">
+    <meta name="Sandra Pastrana" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Goole fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CFira+Sans:300,400,400i,600" rel="stylesheet">
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/theme.min.css">
+    <title>Wheather Analysis</title>
 </head>
 
 <body>
-<h1>Welcome! I am Sandra,</h1>
 
-<p>I have an MBA degree with emphasis in Business Analytics and a BS degree in Marketing.
+    <header class="site-header fixed-top bg-black border-bottom border-dark">
+        <a href="#content" class="sr-only sr-only-focusable">Skip to content</a>
+        <div class="container">
 
- <br>
+            <!-- Navbar -->
+            <nav class="navbar main-nav navbar-expand-lg navbar-dark" aria-label="Main navigation">
+                <a href="index.html" class="navbar-brand d-inline-flex text-uppercase">Wheather Analysis </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-uppercase" id="navbarContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Data</a>
+                        </li>
+                    
+                    
+                        
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">one</a>
+                                        <a class="dropdown-item" href="#">Two</a>
+                                        <a class="dropdown-item" href="#">Three</a>
+                                                                   
+        
+                    </li> 
 
-  I was born and raised in Colombia and moved to the US after graduation. I have lived and worked in Idaho and am currently in Minneapolis. I am proficient in both English and Spanish.
-  <br>
-   
-  
-  Feel free to look around and learn more about my experience, interests, and, hobbies. Please connect with me if you want to talk about work opportunities.</p>
+
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="content">
+
+        <!-- Hero -->
+        <div class="container py-5 py-lg-6">
+                    <h3 class="card-header">What's the Weather Like As We Approach the Equator?</h3>
+                    <h1 class="display-3 pb-3"></h1>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p class="lead font-serif mb-6 text-secondary">We all know it will get warmer! However, this project will prove and visualize it.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Articles -->
+        <div class="bg-white text-black pb-5">
+            <div class="container py-2">
+                <div class="row mt-n6">
+                    <div class="col-md-6">
+                        <div class="card border-0 mb-5">
+                            <a href="article.html" class="h-100 img-rising" aria-hidden="true">
+                                <img class="card-img-top" src="img/LatitudeVsTemperaturePlot.png" alt="">
+                            </a>
+                            <div class="card-body px-0">
+                                <a href="#" class="d-block text-muted text-uppercase mb-2">Interesting fact:</a>
+                                <h2 class="card-title h3">
+                                    <!-- <a href="article.html">Why clean design creates better experiences</a> -->
+                                </h2>
+                                <!-- <div class="small text-muted mb-3">5 days ago | 5 min read</div> -->
+                                <p class="card-text">looks like cities in the southern hemesphire tend to be slighly warmer than those on the northen one.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card border-0 mb-5">
+                            <!-- <a href="article.html" class="h-100 img-rising" aria-hidden="true">
+                                <img class="card-img-top" src="img/origami.jpg" alt="">
+                            </a>
+                            <div class="card-body px-0">
+                                <a href="#" class="d-block text-muted text-uppercase mb-2">Origami</a>
+                                <h2 class="card-title h3">
+                                    <a href="article.html">How to make origami for beginners</a>
+                                </h2>
+                                <div class="small text-muted mb-3">7 days ago | 8 min read</div>
+                                <p class="card-text">This is a sample intro paragraph and can be used to introduce readers to your article. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div> -->
+
+                            <div class="container mb-6">
+                                
+                                        <h2 class="h3 font-weight-normal">HOW DO WE PROVE IT?</h2>
+                                        <br>                                        
+                                        <p class="mb-1"><i class="material-icons">place</i>&nbsp;&nbsp;I randomly selected approximately 500 cities from around the globe, making sure that all latitudes and longitudes were represented. </p>
+                                        <br>
+                                        <p class="mb-1"><i class="material-icons">wb_sunny</i>&nbsp;&nbsp;Then I recorded the temperature of each city and created a scatterplot.</p>
+                                        <br>
+                                        <p class="mb-1"><i class="material-icons">check</i>&nbsp;&nbsp;The scatterplot proves the point.</p>
+                                        <br>
+                                        <p class="mb-1"><i class="material-icons">developer_board</i>&nbsp;&nbsp;To build this analysis, I queried the OpenWeather API, and used Pandas and Matplotlib to visualize it.</p>
+                    
+                            </div>
+                                    
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+                
+        </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    
+    <div class="row">
+            <div class="col-md-12">
+                    <div class="container pt-6 pb-2">
+                    <p class="mb-1">The relatioship with temperature is one we all know about. But how about humidity, wind or cloudiness? Is there also a relationship with latitute? Let's take a look!</p>
+                    </div>
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-md-12">
+    <!-- -- <footer class="bg-light text-black">  -->
+                <div class="container pt-6 pb-2">
+                    <div class="row justify-content-md-between">
+                        <div class="col-4 col-md-2 mb-4">
+                            
+                            <button type="button" class="btn btn-primary">Humidity</button>
+                            
+                         </div> 
+                        <div class="col-4 col-md-2 mb-4">
+                                <button type="button" class="btn btn-primary">Cloudiness</button>
+                            
+                        </div>
+                        <div class="col-4 col-md-2 mb-4">
+                                <button type="button" class="btn btn-primary">wind      </button>
+                            
+             
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+           
+    </div>
+    <!-- </footer> -->
+
+<script src="js/theme.min.js"></script>
 </body>
-
-</html>
